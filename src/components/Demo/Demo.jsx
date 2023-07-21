@@ -1,3 +1,4 @@
+import Button from "react-bootstrap/Button";
 import React, { useState } from "react";
 
 export default function Demo() {
@@ -25,7 +26,9 @@ export default function Demo() {
             }
             required
           />
-          <button type="submit">Submit</button>
+          <Button type="submit" variant="primary">
+            Submit
+          </Button>
         </form>
       </div>
     </section>
